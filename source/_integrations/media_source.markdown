@@ -26,18 +26,6 @@ related:
 
 The **Media source** {% term integration %} lets integrations share media with Home Assistant. You can browse this media in the media browser, and play it on supported media players, such as Google Cast devices.
 
-## Browsing your media
-
-The media browser shows your own media, such as the files in your `/media` folder. It also shows media from other integrations, such as stations from [Radio Browser](/integrations/radio_browser/). To add your own files, refer to [Adding your media to Home Assistant](/more-info/local-media/add-media/).
-
-1. In the sidebar, go to {% my media_browser title="**Media**" %}.
-2. In the bottom-right corner, open the list of players, and select where you want to open your media. What the media browser lists depends on the player:
-   - To see all your media, and to view or play it in your browser, select **Web browser**.
-   - To play media on a media player, such as a Sonos speaker, select that player. The media browser then only lists what that player can play, such as audio files and the player's favorites.
-   - If a player is missing from the list or grayed out, refer to [Troubleshooting](#troubleshooting).
-3. Select a media source, such as **My media**, and open a folder to browse its files.
-4. Select an item to view or play it.
-
 ## Configuration
 
 Home Assistant sets up this integration automatically. It's part of `default_config`, and integrations that provide media load it too.
@@ -62,6 +50,18 @@ To link to a file, for example, in a notification of the Companion app, use `/me
 ## Using custom or additional media folders
 
 You can add more media folders, for example, from a network storage. For the steps, refer to [Adding additional media directories](/more-info/local-media/setup-media/#adding-additional-media-directories).
+
+## Browsing your media
+
+The media browser shows your own media, such as the files in your `/media` folder. It also shows media from other integrations, such as stations from [Radio Browser](/integrations/radio_browser/). To add your own files, refer to [Adding your media to Home Assistant](/more-info/local-media/add-media/).
+
+1. In the sidebar, go to {% my media_browser title="**Media**" %}.
+2. In the bottom-right corner, open the list of players, and select where you want to open your media. What the media browser lists depends on the player:
+   - To see all your media, and to view or play it in your browser, select **Web browser**.
+   - To play media on a media player, such as a Sonos speaker, select that player. The media browser then only lists what that player can play, such as audio files and the player's favorites.
+   - If a player is missing from the list or grayed out, refer to [Troubleshooting](#troubleshooting).
+3. Select a media source, such as **My media**, and open a folder to browse its files.
+4. Select an item to view or play it.
 
 ## Playing media from a media source
 
